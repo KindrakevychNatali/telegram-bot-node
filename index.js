@@ -3,7 +3,7 @@ const cors = require('cors');
 const TelegramBot = require('node-telegram-bot-api');
 
 const token = '5925714593:AAHZAvP7PErROUV1nu98_eMH8hHDKPX9I1w';
-const webAppUrl = '/';
+const webAppUrl = 'https://telegram-bot-react-k110bb67q-kindrakevychnatali.vercel.app';
 
 const bot = new TelegramBot(token, {polling: true});
 
